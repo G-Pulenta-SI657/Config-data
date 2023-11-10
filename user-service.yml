@@ -4,9 +4,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://mysql:3306/user_db
-    username: root
-    password: admin123
+    url: "jdbc:mysql://quipu-user.mysql.database.azure.com:3306/user_db?useSSL=true"
+    username: quipu_user
+    password: User12345
   jpa:
     hibernate:
       ddl-auto: update
