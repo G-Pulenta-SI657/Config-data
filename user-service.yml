@@ -6,7 +6,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: "jdbc:mysql://quipu-user.mysql.database.azure.com:3306/user_db?useSSL=true"
     username: quipu_user
-    password: User12345
+    password: Admin123
   jpa:
     hibernate:
       ddl-auto: update
