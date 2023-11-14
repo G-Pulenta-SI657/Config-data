@@ -5,7 +5,7 @@ user:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: "jdbc:mysql://quipu-user.mysql.database.azure.com:3306/user_db?useSSL=true"
+    url: "jdbc:mysql://quipu-offer.mysql.database.azure.com:3306/offer_db?useSSL=true"
     username: quipu_user
     password: Admin123
   jpa:
