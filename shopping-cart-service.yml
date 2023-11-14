@@ -4,9 +4,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/shoppingCart_db
-    username: root
-    password: admin123
+    url: "jdbc:mysql://quipu-shoppingcart.mysql.database.azure.com:3306/shoppingcart_db?useSSL=true"
+    username: quipu_user
+    password: Admin123
   jpa:
     hibernate:
       ddl-auto: update
@@ -15,7 +15,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8099/eureka/
+      defaultZone: http://registry-service:8099/eureka/
 
 resilience4j.circuitbreaker:
   configs:
