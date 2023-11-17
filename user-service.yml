@@ -15,7 +15,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://registry-service:8099/eureka
+      defaultZone: https://quipu-registry.ambitiouscliff-43413f51.eastus.azurecontainerapps.io
 
 resilience4j.circuitbreaker:
   configs:
