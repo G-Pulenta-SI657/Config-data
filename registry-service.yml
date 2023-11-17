@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: quipu-microservice-user-service.azuremicroservices.io
   client:
     registerWithEureka: false
     fetchRegistry: false
