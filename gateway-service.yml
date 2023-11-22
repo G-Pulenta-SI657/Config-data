@@ -36,4 +36,4 @@ spring:
         - id: offer-service
           uri: lb://offer-service
           predicates:
-            - Path=/api/v1/**
+            - Path=/api/v1/offers
